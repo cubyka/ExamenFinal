@@ -11,11 +11,11 @@
   </head>
   <body class="container">
     <header class="row">
-      <div class="col-lg-4 col-md-4">
-        <img class="img-responsive" src="img/example-logo.png" alt="Logo">
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <img class="img-responsive img-logo" src="img/example-logo.png" alt="Logo">
       </div>
-      <div class="col-lg-4 offset-lg-4 col-md-4 offset-lg-4 align-self-end">
-        <div class="text-right">
+      <div class="col-lg-4 offset-lg-4 col-md-4 offset-lg-4 col-sm-12 align-self-end">
+        <div class="text-center">
           <img src="img/Facebook_Color.png" alt="FacebookIcon">
           <img src="img/Twitter-Color.png" alt="TwitterIcon">
           <img src="img/Youtube_Color.png" alt="YoutubeIcon">
@@ -32,10 +32,51 @@
         <li class="nav-item"><a class="nav-link" href="#">Link 4</a></li>
       </ul>
     </nav>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#menuDesplegable" type="button" name="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuDesplegable">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Link 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 4</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 4</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
     <section class="row">
       <section class="col-lg-9 col-md-9">
         <div class="card border-dark bg-light flex-row">
-          <div class="card-body align-self-start">
+          <div class="card-body">
             <h2 class="card-title">Título del artículo</h2>
             <p class="card-text text-justify">Donec bibendum, justo vel porta semper, ligula tellus efficitur erat, pellentesque mollis lectus justo ut nisi. Proin pellentesque metus erat, eu vehicula turpis iaculis at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam gravida aliquam magna, id semper tellus. Mauris facilisis elit sed cursus vulputate. Praesent non finibus urna. Vestibulum a bibendum eros.</p>
             <hr>
@@ -46,7 +87,7 @@
               </div>
             </footer>
           </div>
-          <img class="card-img" src="img/music.png" alt="imagenAlbum">
+          <img class="card-img align" src="img/music.png" alt="imagenAlbum">
         </div>
         <div class="card border-dark bg-light flex-row">
           <img class="card-img" src="img/music.png" alt="imagenAlbum">
@@ -64,9 +105,28 @@
         </div>
       </section>
       <aside class="col-lg-3 col-md-3">
-        <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input id="email" type="text" class="form-control" name="email" placeholder="este">
+        <div class="card bg-dark searchCard">
+          <div class="input-group align-self-center">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="email" type="text" class="form-control" name="email" placeholder="este">
+          </div>
+        </div>
+        <div class="card">
+          <ul class="list-group">
+            <li class="list-group-item">Articulo 1</li>
+            <li class="list-group-item">Artículo 2</li>
+            <li class="list-group-item">Artículo 3</li>
+            <li class="list-group-item">Artículo 4</li>
+            <li class="list-group-item">Artículo 5</li>
+            <li class="list-group-item">Articulo 6</li>
+            <li class="list-group-item">Artículo 7</li>
+            <li class="list-group-item">Artículo 8</li>
+            <li class="list-group-item">Artículo 9</li>
+            <li class="list-group-item">Artículo 10</li>
+            <li class="list-group-item">Artículo 11</li>
+            <li class="list-group-item">Artículo 12</li>
+            <li class="list-group-item">Artículo 13</li>
+          </ul>
         </div>
       </aside>
 

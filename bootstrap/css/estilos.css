@@ -1,3 +1,16 @@
+.img-logo{
+  width: 50%;
+}
 .card-img{
-  width: 80% !important;
+  width: 20%;
+  height: 20%;
+}
+.searchCard{
+  height: 60px;
+}
+.card{
+  margin-top: 5px;
+}
+nav{
+  margin:5px 0;
 }
