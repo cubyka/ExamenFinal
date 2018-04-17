@@ -1,0 +1,14 @@
+ body{
+   background-image: url("../img/fondo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ header{
+   background-color: rgba(128, 128, 128, 0.9);
+ }
+/* aside{
+  height: 750px !important;
+} */
+.fi-torso-business{
+  font-size: 72px;
+}
